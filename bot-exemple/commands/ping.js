@@ -10,7 +10,7 @@ export default {
     const embed = new DiscordEmbed()
     .setColor('#eb4034')
     .setTitle('Cool embed')
-    .setDescription(`Mon ping est acutellement de ${ping}ms`)
+    .setDescription(`🏓Pong! My ping is ${ping}ms`)
     .setFooter('Foxcord');
     
     message.channel.send(embed);
