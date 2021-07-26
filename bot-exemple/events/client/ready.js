@@ -1,1 +1,1 @@
-export default async () => console.log('Connecté !');
+export default async () => console.log('Ready !');
