@@ -1,4 +1,4 @@
-import handle from './utils/loaders/handle.js';
+import handle from './handle.js';
 
 export default async function(client) {
   await handle('commands', async path => {
