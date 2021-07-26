@@ -3,7 +3,7 @@ import { PREFIX } from '../../../utils/config.js';
 export default async function(message) {  
   
   if(message.author.bot) return;
-  if(!message.content.endsWith(PREFIX)) return; //Exemple: ban @Lucifer is mean $
+  if(!message.content.endsWith(PREFIX)) return; //Exemple: ban Lucifer is mean $
   
   const args = message.content.split(PREFIX)[0].split(' ');
   const cmdName = args.shift().toLowerCase();
