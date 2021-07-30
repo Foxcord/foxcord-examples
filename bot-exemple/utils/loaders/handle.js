@@ -3,9 +3,9 @@ import { readdir } from 'fs/promises';
 
 export default async function(dir, callback) {
   dir = join(process.cwd(), dir);
-  return await readdir(dir).then(async dirnames => {
+  readdir(dir).then(async dirnames => {
     for(const dirname of dirnames) {
-      await readdir(join(dir, dirname)).then(async filenames => {
+      readdir(join(dir, dirname)).then(async filenames => {
         for(const filename of filenames) {
           callback(join(dir, dirname, filename));
         };
