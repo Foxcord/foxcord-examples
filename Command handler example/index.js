@@ -1,7 +1,7 @@
-import { Client, Collection } from 'foxcord';
-import { TOKEN } from './utils/config.js';
-import commandsLoader from './utils/loaders/commandsLoader.js';
-import eventsLoader from './utils/loaders/eventsLoader.js';
+const { Client, Collection } = require('foxcord');
+const { TOKEN } = require('./utils/config.js');
+const commandsLoader = require('./utils/loaders/commandsLoader.js');
+const eventsLoader = require('./utils/loaders/eventsLoader.js');
 
 const CLIENT = new Client({
   device: 'MOBILE',
