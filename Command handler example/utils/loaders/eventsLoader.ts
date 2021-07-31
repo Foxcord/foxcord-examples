@@ -1,4 +1,4 @@
-const handle = require('./handle.js');
+import handle from './handle.js';
 
 export default async function(client) {
   await handle('events', async path => {
