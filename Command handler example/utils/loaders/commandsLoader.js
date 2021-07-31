@@ -1,4 +1,4 @@
-import handle from './handle.js';
+const handle = require('./handle.js');
 
 export default async function(client) {
   await handle('commands', async path => {
