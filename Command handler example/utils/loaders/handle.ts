@@ -1,5 +1,5 @@
-const { join } =  require('path');
-const { readdir } = require('fs/promises');
+import { join } from 'path';
+import { readdir } from 'fs/promises';
 
 export default async function(dir, callback) {
   dir = join(process.cwd(), dir);
