@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "foxcord": "^0.0.1-alpha-0.21"
+  },
+  "type": "module",
+  "name": "bot-template-using-foxcord",
+  "version": "1.0.0",
+  "description": "Simple template using Foxcord",
+  "main": "index.js",
+  "author": "Lucifer_"
+}
