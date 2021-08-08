@@ -1,0 +1,1 @@
+export const PREFIX = '$', TOKEN = 'ODYzNTA2MDUwNDM5MDUzMzYz.YOn4rQ.PgBNkBcBfybhpi74LFER8yDdoac'
